@@ -1,7 +1,13 @@
-Resonance Audio SDK for FMOD
-=====================
-Copyright (c) 2017 Google Inc.  All rights reserved.
+# [Resonance Audio SDK](//developers.google.com/resonance-audio) for [FMOD](//www.fmod.com/)
 
-This SDK is coming soon. 
+This SDK enables high-quality spatial audio on mobile and desktop platforms.
 
-Please use the [Google VR Audio SDK for FMOD](//github.com/googlevr/gvr-audio-fmod-sdk) in the meantime. For more information, see the [Get Started with Resonance Audio for FMOD](//developers.google.com/resonance-audio/develop/fmod/getting-started) developer guide.
+Copyright (c) 2017 Google Inc. All rights reserved.
+
+## Getting Started
+
+The Resonance Audio SDK for FMOD requires
+[FMOD 1.10.02 or newer](//www.fmod.com/download).
+
+If you are new to the Resonance Audio SDK for FMOD, see the [Getting started with Resonance Audio in FMOD](//developers.google.com/resonance-audio/develop/fmod/getting-started) guide.
+
