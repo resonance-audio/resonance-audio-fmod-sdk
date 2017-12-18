@@ -1,5 +1,11 @@
 # Release notes
 
+## Resonance Audio SDK for FMOD v1.1.1
+
+### Bug fixes
+* Fixed a bug in stereo deinterleaving input buffer conversion that could lead
+  to a crash.
+
 ## Resonance Audio SDK for FMOD v1.1.0
 
 ### Behavioral Changes
