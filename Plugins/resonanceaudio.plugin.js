@@ -51,8 +51,19 @@ studio.plugins.registerPluginDescription('Resonance Audio Source', {
                 filePath: __dirname + '/RA_logo_small.png'
               },
               {
-                deckWidgetType: studio.ui.deckWidgetType.Button,
-                binding: 'Bypass Room',
+                deckWidgetType: studio.ui.deckWidgetType.Layout,
+                layout: studio.ui.layoutType.HBoxLayout,
+                spacing: 7,
+                items: [
+                  {
+                    deckWidgetType: studio.ui.deckWidgetType.Button,
+                    binding: 'Bypass Room',
+                  },
+                  {
+                    deckWidgetType: studio.ui.deckWidgetType.Button,
+                    binding: 'Near-Field FX',
+                  },
+                ],
               },
             ],
           },
@@ -73,6 +84,10 @@ studio.plugins.registerPluginDescription('Resonance Audio Source', {
               {
                 deckWidgetType: studio.ui.deckWidgetType.Dial,
                 binding: 'Occlusion',
+              },
+              {
+                deckWidgetType: studio.ui.deckWidgetType.Dial,
+                binding: 'Near-Field Gain',
               },
             ],
           },
