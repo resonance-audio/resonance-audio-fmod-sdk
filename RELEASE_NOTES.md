@@ -1,6 +1,12 @@
 # Release notes
 
-## Resonance Audio SDK for FMOD v1.2.0
+## Resonance Audio SDK for FMOD v1.2.1
+
+### Bug fixes
+* Fixed a bug where the near-field effect modifiers were assigned to a wrong UI index.
+* Minor bug fixes and performance optimizations.
+
+## Resonance Audio SDK for FMOD v1.2.0 (2018-02-20)
 
 ### Additions
 * Added advanced near-field effect for sound sources less than 1 meter from the listener. Introduced Near-Field Effect toggle and gain adjustment in `Resonance Audio Source` to simulate the effect of sound sources being very close to the listener's ears. Note that this effect could result in up to ~9x gain boost on the source input. Therefore, it is advised to set smaller gain values or reduce the input gain for louder sound sources to avoid clipping of the output signal.
